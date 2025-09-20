@@ -1,0 +1,1 @@
+// Scope chain scope & Lexical Environment
