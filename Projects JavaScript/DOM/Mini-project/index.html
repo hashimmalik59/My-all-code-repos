@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        border: 10px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <button>ON</button>
+    <button class="off">OFF</button>
+    <script>
+      // Accessing elements
+      const box = document.querySelector(".box");
+      const onButton = document.querySelector("button");
+      const offButton = document.querySelector(".off");
+      onButton.addEventListener("click", function () {
+        box.style.backgroundColor = "blue";
+        box.style.borderRadius = "30px";
+      });
+      offButton.addEventListener("click", function () {
+        box.style.backgroundColor = "red";
+        box.style.borderRadius = "0px";
+      });
+    </script>
+  </body>
+</html>

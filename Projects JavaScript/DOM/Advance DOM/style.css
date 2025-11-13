@@ -1,0 +1,23 @@
+ul {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.new {
+    color: green;
+    font-weight: 900;
+}
+
+#language {
+    background-color: green;
+}
+
+.box2 {
+    background-color: blue;
+    color: white;
+}
+
+.newBox {
+    font-size: 40px;
+}
